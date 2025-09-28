@@ -867,11 +867,28 @@ footer h1{
     header u1 {
       position: static;
       transform: none;
-      width: 100%;
+      width: auto;
       gap: 10px;
       padding: 10px;
+      flex-direction: column;
       flex-wrap: wrap;
+      background: transparent;
+      box-shadow: none;
       justify-content: center;
+    }
+
+    header u1 a{
+        font-size: 14px;
+    }
+    
+
+    .left h1{
+        font-size: 18px;
+    }
+
+    .left img{
+        width: 50px;
+        margin: 0 10px;
     }
   
     .hero {
